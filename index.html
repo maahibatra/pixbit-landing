@@ -10,15 +10,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
 
-    <title>pixbit!</title>
+    <title>pixbit landing!</title>
 </head>
 <body class="font-['Pixelify_Sans'] bg-[#1e1e2f] text-[#f4f4f4]">
 
     <!-- NAVBAR -->
     <header id="navbar" class="fixed top-0 left-0 w-full bg-[#2c3e50] px-6 py-4 shadow-md">
         <div class="flex items-center justify-between">
-            <h1 class="text-5xl font-bold text-[#ffc857] hover:underline"><a href="https://pixbit-nine.vercel.app/">pixbit!</a></h1>
-            <nav class="text-2xl space-x-20">
+            <h1 class="text-3xl md:text-5xl font-bold text-[#ffc857] hover:underline"><a href="https://pixbit-nine.vercel.app/">pixbit!</a></h1>
+            <nav class="hidden md:flex md:text-2xl md:space-x-12">
                 <a href="#features" class="hover:underline">features</a>
                 <a href="#roadmap" class="hover:underline">roadmap</a>
                 <a href="#faq" class="hover:underline">FAQ</a>
@@ -30,63 +30,63 @@
     <!-- HERO SECTION -->
     <section id="hero" class="py-20 mt-10">
         <div class="mx-auto text-center">
-            <h1 class="text-7xl font-bold text-[#ffc857] mb-4">draw pixels. create art.</h1>
-            <p class="text-2xl mb-8">a beautiful, neo-retro pixel art editor in your browser.</p>
-            <button class="text-xl px-6 py-3 rounded-2xl border-3 border-[#7f8fa6] bg-[rgba(67,93,119,0.2)] hover:border-[#9fb0c8] hover:bg-[rgba(67,93,119,0.35)] transition">
-                <a href="https://pixbit-nine.vercel.app/">open editor</a>
+            <h1 class="text-4xl sm:text-5xl md:text-7xl font-bold text-[#ffc857] mb-4">draw pixels. create art.</h1>
+            <p class="text-lg sm:text-xl md:text-2xl mb-8">a beautiful, neo-retro pixel art editor in your browser.</p>
+            <button class="text-xl sm:text-2xl md:text-3xl px-6 py-3 rounded-2xl border-3 border-[#ff69b4] bg-pink-500/20 hover:border-[#ff85c1] hover:bg-pink-500/35 transition">
+                <a href="https://pixbit-nine.vercel.app/" target="_blank">open editor</a>
             </button>
             <div class="mt-10 flex flex-row justify-center items-center gap-6 px-4">
-                <img src="image-1.png" alt="editor screenshot 1" class="w-180 h-200 rounded-2xl border-3 border-[#7f8fa6] hover:border-[#ffc857] transition">
-                <img src="image-2.png" alt="editor screenshot 2" class="w-180 h-200 rounded-2xl border-3 border-[#7f8fa6] hover:border-[#ffc857] transition">
+                <img src="image-1.png" alt="editor screenshot 1" class="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-2xl rounded-2xl border-3 border-[#7f8fa6] hover:border-[#9fb0c8] transition">
+                <img src="image-2.png" alt="editor screenshot 2" class="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-2xl rounded-2xl border-3 border-[#7f8fa6] hover:border-[#9fb0c8] transition">
             </div>
         </div>
     </section>
 
     <!-- FEATURES -->
     <section id="features" class="py-20">
-        <h1 class="text-6xl font-bold text-[#ffc857] mb-10 text-center">FEATURES</h1>
+        <h1 class="text-4xl sm:text-5xl md:text-7xl font-bold text-[#ffc857] mb-10 text-center">FEATURES</h1>
         <div class="mx-auto px-6">
-            <div class="grid grid-cols-2 gap-8 mx-auto max-w-7xl">
-                <div class="bg-[#2c3e50] p-6 rounded-2xl shadow-md border border-[#7f8fa6]">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mx-auto max-w-7xl">
+                <div class="bg-[#2c3e50] p-6 rounded-2xl shadow-md border-2 border-[#7f8fa6]">
                     <h2 class="text-3xl font-bold mb-2">1. BRUSH</h2>
                     <p class="text-xl ml-5">
-                        the basic drawing tool, duh :p<br>
-                        you can also select the color to draw with!<br>
-                        one pixel at a time.
+                        -> the basic drawing tool, duh :p<br>
+                        -> you can also select the color to draw with!<br>
+                        -> one pixel at a time.
                     </p>
                 </div>
-                <div class="bg-[#2c3e50] p-6 rounded-2xl shadow-md border border-[#7f8fa6]">
+                <div class="bg-[#2c3e50] p-6 rounded-2xl shadow-md border-2 border-[#7f8fa6]">
                     <h2 class="text-3xl font-semibold mb-2">2. ERASER</h2>
                     <p class="text-xl ml-5">
-                        delete pixels with this awesome totally unique feature never seen before (kidding)<br>
-                        no, you can't select color. dummy<br>
-                        also one pixel at a time.
+                        -> delete pixels with this awesome totally unique feature never seen before (kidding)<br>
+                        -> no, you can't select color. dummy<br>
+                        -> also one pixel at a time.
                     </p>
                 </div>
-                <div class="bg-[#2c3e50] p-6 rounded-2xl shadow-md border border-[#7f8fa6]">
+                <div class="bg-[#2c3e50] p-6 rounded-2xl shadow-md border-2 border-[#7f8fa6]">
                     <h2 class="text-3xl font-semibold mb-2">3. UNDO</h2>
                     <p class="text-xl ml-5">
-                        accidental brush stroke? undo!<br>
-                        ctrl+z or click the undo button!
+                        -> accidental brush stroke? undo!<br>
+                        -> ctrl+z or click the undo button!
                     </p>
                 </div>
-                <div class="bg-[#2c3e50] p-6 rounded-2xl shadow-md border border-[#7f8fa6]">
+                <div class="bg-[#2c3e50] p-6 rounded-2xl shadow-md border-2 border-[#7f8fa6]">
                     <h2 class="text-3xl font-semibold mb-2">4. REDO</h2>
                     <p class="text-xl ml-5">
-                        accidental undo? redo!<br>
-                        ctrl+y or click the redo button
+                        -> accidental undo? redo!<br>
+                        -> ctrl+y or click the redo button
                     </p>
                 </div>
-                <div class="bg-[#2c3e50] p-6 rounded-2xl shadow-md border border-[#7f8fa6]">
+                <div class="bg-[#2c3e50] p-6 rounded-2xl shadow-md border-2 border-[#7f8fa6]">
                     <h2 class="text-3xl font-semibold mb-2">5. SAVE TRANSPARENT</h2>
                     <p class="text-xl ml-5">
-                        save your cool pixel art drawing without a background!
+                        -> save your cool pixel art drawing without a background!
                     </p>
                 </div>
-                <div class="bg-[#2c3e50] p-6 rounded-2xl shadow-md border border-[#7f8fa6]">
+                <div class="bg-[#2c3e50] p-6 rounded-2xl shadow-md border-2 border-[#7f8fa6]">
                     <h2 class="text-3xl font-semibold mb-2">6. SAVE OPAQUE</h2>
                     <p class="text-xl ml-5">
-                        same thing as transparent but with a white background.
+                        -> same thing as saving transparent but it's not transparent (opaque, dummy - white background).
                     </p>
                 </div>
             </div>
@@ -95,10 +95,10 @@
 
     <!-- ROADMAP -->
     <section id="roadmap" class="py-20">
-        <h1 class="text-6xl font-bold text-[#ffc857] mb-10 text-center">ROADMAP</h1>
+        <h1 class="text-4xl sm:text-5xl md:text-7xl font-bold text-[#ffc857] mb-10 text-center">ROADMAP</h1>
         <div class="mx-auto px-6">
             <div class="grid grid-cols-1 gap-8 mx-auto max-w-3xl">
-                <div class="bg-[#2c3e50] p-6 rounded-2xl shadow-md border border-[#7f8fa6]">
+                <div class="bg-[#2c3e50] p-6 rounded-2xl shadow-md border-2 border-[#7f8fa6]">
                     <h2 class="text-3xl font-bold mb-2">1. BASIC FEATURES</h2>
                     <p class="text-xl ml-5">
                         -> brush.<br>
@@ -107,15 +107,15 @@
                         -> exporting.
                     </p>
                 </div>
-                <div class="bg-[#2c3e50] p-6 rounded-2xl shadow-md border border-[#ffc857]">
-                    <h2 class="text-3xl font-bold mb-2"><span class="text-[#ffc857]">CURRENTLY WORKING ON:</span> 2. ART GALLERY</h2>
+                <div class="bg-[#2c3e50] p-6 rounded-2xl shadow-md border-2 border-[#7f8fa6]">
+                    <h2 class="text-3xl font-bold mb-2"><span class="text-[#9fb0c8]">CURRENTLY WORKING ON:</span> 2. ART GALLERY</h2>
                     <p class="text-xl ml-5">
                         -> gallery of saved artwork.<br>
                         -> grid resizing.<br>
                         -> creating new blank works.
                     </p>
                 </div>
-                <div class="bg-[#2c3e50] p-6 rounded-2xl shadow-md border border-[#7f8fa6]">
+                <div class="bg-[#2c3e50] p-6 rounded-2xl shadow-md border-2 border-[#7f8fa6]">
                     <h2 class="text-3xl font-bold mb-2">3. TBD</h2>
                     <p class="text-xl ml-5">
                         -> N/A.
@@ -127,24 +127,24 @@
 
     <!-- FAQ -->
     <section id="faq" class="py-20">
-        <h1 class="text-6xl font-bold text-[#ffc857] mb-10 text-center">FAQ</h1>
+        <h1 class="text-4xl sm:text-5xl md:text-7xl font-bold text-[#ffc857] mb-10 text-center">FAQ</h1>
         <div class="mx-auto px-6">
             <div class="grid grid-cols-1 gap-8 mx-auto max-w-3xl">
-                <div class="bg-[#2c3e50] p-6 rounded-2xl shadow-md border border-[#7f8fa6]">
+                <div class="bg-[#2c3e50] p-6 rounded-2xl shadow-md border-2 border-[#7f8fa6]">
                     <h2 class="text-3xl font-bold mb-2">what is this?</h2>
                     <p class="text-xl ml-5">a browser based pixel art editor. simple, fast, and free.</p>
                 </div>
-                <div class="bg-[#2c3e50] p-6 rounded-2xl shadow-md border border-[#7f8fa6]">
+                <div class="bg-[#2c3e50] p-6 rounded-2xl shadow-md border-2 border-[#7f8fa6]">
                     <h2 class="text-3xl font-bold mb-2">do i need to sign up or pay?</h2>
                     <p class="text-xl ml-5">nope. just open the link and start drawing. completely free, always.</p>
                 </div>
-                <div class="bg-[#2c3e50] p-6 rounded-2xl shadow-md border border-[#7f8fa6]">
+                <div class="bg-[#2c3e50] p-6 rounded-2xl shadow-md border-2 border-[#7f8fa6]">
                     <h2 class="text-3xl font-bold mb-2">can i save my work?</h2>
                     <p class="text-xl ml-5">you can export as PNG. future versions will include saving to a gallery.</p>
                 </div>
-                <div class="bg-[#2c3e50] p-6 rounded-2xl shadow-md border border-[#7f8fa6]">
+                <div class="bg-[#2c3e50] p-6 rounded-2xl shadow-md border-2 border-[#7f8fa6]">
                     <h2 class="text-3xl font-bold mb-2">is this open source?</h2>
-                    <p class="text-xl ml-5">yes. the repo is <a href="https://github.com/maahibatra/pixbit">here.</a> (leads to the editor's repo - the landing page's repo is separate, found in navbar and header.</p>
+                    <p class="text-xl ml-5">yes. the repo is <a href="https://github.com/maahibatra/pixbit" target="_blank">here.</a> (leads to the editor's repo - the landing page's repo is separate, found in navbar and header.</p>
                 </div>
             </div>
         </div>
@@ -152,12 +152,12 @@
 
     <!-- FOOTER -->
     <footer id="footer" class="py-7 bg-[#2c3e50] w-full">
-        <div class="flex items-center justify-between">
-            <p class="text-3xl">&copy; 2025 pixbit landing page. built with <3</p>
-            <p class="text-2xl space-x-20">
-                <a href="https://pixbit-nine.vercel.app/" class="font-bold text-[#ffc857] hover:underline">pixbit editor!</a>
-                <a href="https://github.com/maahibatra/pixbit" class="hover:underline">pixbit's repo.</a>
-                <a href="https://github.com/maahibatra/pixbit-landing" class="hover:underline">landing page repo.</a>
+        <div class="flex md:items-center md:justify-between flex-col md:flex-row gap-5 px-6">
+            <p class="text-xl sm:text-2xl md:text-3xl text-center md:text-left">&copy; 2025 pixbit landing page. built with <3</p>
+            <p class="text-lg sm:text-xl md:text-2xl flex flex-col md:flex-row text-center gap-1">
+                <a href="https://pixbit-nine.vercel.app/" class="font-bold text-[#ffc857] hover:underline" target="_blank">pixbit editor!</a>
+                <a href="https://github.com/maahibatra/pixbit" class="hover:underline" target="_blank">pixbit's repo.</a>
+                <a href="https://github.com/maahibatra/pixbit-landing" class="hover:underline" target="_blank">landing page repo.</a>
             </p>
         </div>
     </footer>
