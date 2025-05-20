@@ -15,60 +15,111 @@
 <body class="font-['Pixelify_Sans'] bg-[#1e1e2f] text-[#f4f4f4]">
 
     <!-- NAVBAR -->
-    <header class="fixed top-0 left-0 w-full bg-[#2c3e50] px-6 py-4 shadow-md">
+    <header id="navbar" class="fixed top-0 left-0 w-full bg-[#2c3e50] px-6 py-4 shadow-md">
         <div class="flex items-center justify-between">
-            <h1 class="text-5xl font-bold text-[#ffc857]">pixbit!</h1>
+            <h1 class="text-5xl font-bold text-[#ffc857] hover:underline"><a href="https://pixbit-nine.vercel.app/">pixbit!</a></h1>
             <nav class="text-2xl space-x-20">
                 <a href="#features" class="hover:underline">features</a>
-                <a href="#editor" class="hover:underline">editor</a>
+                <a href="#roadmap" class="hover:underline">roadmap</a>
+                <a href="#faq" class="hover:underline">FAQ</a>
                 <a href="https://github.com/maahibatra/pixbit-landing" class="hover:underline">github repo</a>
             </nav>
         </div>
     </header>
 
     <!-- HERO SECTION -->
-    <section class="py-20 mt-10">
+    <section id="hero" class="py-20 mt-10">
         <div class="mx-auto text-center">
             <h1 class="text-7xl font-bold text-[#ffc857] mb-4">draw pixels. create art.</h1>
             <p class="text-2xl mb-8">a beautiful, neo-retro pixel art editor in your browser.</p>
             <button class="text-xl px-6 py-3 rounded-2xl border-3 border-[#7f8fa6] bg-[rgba(67,93,119,0.2)] hover:border-[#9fb0c8] hover:bg-[rgba(67,93,119,0.35)] transition">
                 <a href="https://pixbit-nine.vercel.app/">open editor</a>
             </button>
-            <div class="mt-4 flex flex-row justify-center items-center gap-6 px-4">
-                <img src="image-1.png" alt="editor screenshot 1" class="w-180 h-200 rounded-2xl border-3 border-[#7f8fa6]">
-                <img src="image-2.png" alt="editor screenshot 2" class="w-180 h-200 rounded-2xl border-3 border-[#7f8fa6]">
+            <div class="mt-10 flex flex-row justify-center items-center gap-6 px-4">
+                <img src="image-1.png" alt="editor screenshot 1" class="w-180 h-200 rounded-2xl border-3 border-[#7f8fa6] hover:border-[#ffc857] transition">
+                <img src="image-2.png" alt="editor screenshot 2" class="w-180 h-200 rounded-2xl border-3 border-[#7f8fa6] hover:border-[#ffc857] transition">
             </div>
         </div>
     </section>
 
     <!-- FEATURES -->
-    <section class="py-20">
-        <h1 class="text-5xl text-[#ffc857] mb-20 text-center">features!</h1>
+    <section id="features" class="py-20">
+        <h1 class="text-6xl font-bold text-[#ffc857] mb-20 text-center">FEATURES</h1>
         <div class="mx-auto px-6">
-            <div id="features" class="grid grid-cols-3 gap-8">
+            <div class="grid grid-cols-2 gap-8 mx-auto max-w-7xl">
                 <div class="bg-[#2c3e50] p-6 rounded-2xl shadow-md border border-[#7f8fa6]">
-                    <h2 class="text-3xl font-semibold mb-2">feature</h2>
-                    <p class="text-xl ml-5">description</p>
+                    <h2 class="text-3xl font-bold mb-2">1. BRUSH</h2>
+                    <p class="text-xl ml-5">
+                        the basic drawing tool, duh :p<br>
+                        you can also select the color to draw with!<br>
+                        one pixel at a time.
+                    </p>
                 </div>
                 <div class="bg-[#2c3e50] p-6 rounded-2xl shadow-md border border-[#7f8fa6]">
-                    <h2 class="text-3xl font-semibold mb-2">feature</h2>
-                    <p class="text-xl ml-5">description</p>
+                    <h2 class="text-3xl font-semibold mb-2">2. ERASER</h2>
+                    <p class="text-xl ml-5">
+                        delete pixels with this awesome totally unique feature never seen before (kidding)<br>
+                        no, you can't select color. dummy<br>
+                        also one pixel at a time.
+                    </p>
                 </div>
                 <div class="bg-[#2c3e50] p-6 rounded-2xl shadow-md border border-[#7f8fa6]">
-                    <h2 class="text-3xl font-semibold mb-2">feature</h2>
-                    <p class="text-xl ml-5">description</p>
+                    <h2 class="text-3xl font-semibold mb-2">3. UNDO</h2>
+                    <p class="text-xl ml-5">
+                        accidental brush stroke? undo!<br>
+                        ctrl+z or click the undo button!
+                    </p>
                 </div>
                 <div class="bg-[#2c3e50] p-6 rounded-2xl shadow-md border border-[#7f8fa6]">
-                    <h2 class="text-3xl font-semibold mb-2">feature</h2>
-                    <p class="text-xl ml-5">description</p>
+                    <h2 class="text-3xl font-semibold mb-2">4. REDO</h2>
+                    <p class="text-xl ml-5">
+                        accidental undo? redo!<br>
+                        ctrl+y or click the redo button
+                    </p>
                 </div>
                 <div class="bg-[#2c3e50] p-6 rounded-2xl shadow-md border border-[#7f8fa6]">
-                    <h2 class="text-3xl font-semibold mb-2">feature</h2>
-                    <p class="text-xl ml-5">description</p>
+                    <h2 class="text-3xl font-semibold mb-2">5. SAVE TRANSPARENT</h2>
+                    <p class="text-xl ml-5">
+                        save your cool pixel art drawing without a background!
+                    </p>
                 </div>
                 <div class="bg-[#2c3e50] p-6 rounded-2xl shadow-md border border-[#7f8fa6]">
-                    <h2 class="text-3xl font-semibold mb-2">feature</h2>
-                    <p class="text-xl ml-5">description</p>
+                    <h2 class="text-3xl font-semibold mb-2">6. SAVE OPAQUE</h2>
+                    <p class="text-xl ml-5">
+                        same thing as transparent but with a white background.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ROADMAP -->
+    <section id="roadmap">
+        <h1 class="text-6xl font-bold text-[#ffc857] mb-20 text-center">ROADMAP</h1>
+        <div class="mx-auto px-6">
+            <div class="grid grid-cols-1 gap-8 mx-auto max-w-3xl">
+                <div class="bg-[#2c3e50] p-6 rounded-2xl shadow-md border border-[#7f8fa6]">
+                    <h2 class="text-3xl font-bold mb-2">1. BASIC FEATURES</h2>
+                    <p class="text-xl ml-5">
+                        -> brush.<br>
+                        -> eraser.<br>
+                        -> undo/redo.<br>
+                        -> exporting.
+                    </p>
+                </div>
+                <div class="bg-[#2c3e50] p-6 rounded-2xl shadow-md border border-[#ffc857]">
+                    <h2 class="text-3xl font-bold mb-2"><span class="text-[#ffc857]">CURRENTLY WORKING ON:</span> 2. ART GALLERY</h2>
+                    <p class="text-xl ml-5">
+                        -> gallery of saved artwork.<br>
+                        -> grid resizing.<br>
+                        -> creating new blank works.
+                    </p>
+                </div>
+                <div class="bg-[#2c3e50] p-6 rounded-2xl shadow-md border border-[#7f8fa6]">
+                    <h2 class="text-3xl font-bold mb-2">3. TBD</h2>
+                    <p class="text-xl ml-5">
+                        -> N/A.
+                    </p>
                 </div>
             </div>
         </div>
